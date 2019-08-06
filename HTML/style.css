@@ -1,25 +1,21 @@
 form {
     box-sizing: border-box;
     width: 260px;
-    margin: 100px auto 0;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    margin: 100px auto 0; /* căng giữa */
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2); /* đổ bóng khung */
     padding-bottom: 40px;
-    border-radius: 3px;
-  }
-  form h1 {
-    box-sizing: border-box;
-    padding: 20px;
+    border-radius: 3px; /* bo tròn khung*/
   }
   
   input {
     margin: 40px 25px;
     width: 200px;
     display: block;
-    border: none;
+    border: none;  /* bỏ viền*/
     padding: 10px 0;
-    border-bottom: solid 1px #1abc9c;
-    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+    border-bottom: solid 1px #1abc9c; /* đường viền dưới*/
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1); /* chuyển động*/
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, red 4%);
     background-position: -200px 0;
     background-size: 200px 100%;
     background-repeat: no-repeat;
@@ -34,7 +30,7 @@ form {
   button {
     border: none;
     background: #1abc9c;
-    cursor: pointer;
+    cursor: pointer; /* kiểu trỏ chuột */
     border-radius: 3px;
     padding: 6px;
     width: 200px;
